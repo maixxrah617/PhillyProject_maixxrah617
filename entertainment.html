@@ -1,14 +1,110 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Entertainment </title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Philadelphia Entertainment Attractions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .attractions {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap; /* keeps them side by side */
+    }
+    .attraction {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 23%; /* four fit across */
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .attraction img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    .attraction h2 {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    .location {
+      font-size: 0.85em;
+      color: #555;
+      margin-bottom: 8px;
+    }
+    .description {
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-bottom: 8px;
+    }
+    .pricing {
+      font-size: 0.8em;
+      color: #333;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
 
+<h1>Philadelphia Entertainment Attractions</h1>
 
+<div class="attractions">
 
+  <!-- Magic Gardens -->
+  <div class="attraction">
+    <img src="Magic_Gardens_1.png" alt="Philadelphia's Magic Gardens">
+    <h2>Philadelphia's Magic Gardens</h2>
+    <div class="location">1020 South Street, Philadelphia, PA</div>
+    <div class="description">
+      A dazzling indoor-outdoor mosaic art environment created by Isaiah Zagar. Wander whimsical tunnels and courtyards filled with tile, glass, and found objects.
+    </div>
+    <div class="pricing">Pricing: Adults $15, Students $12, Children $8</div>
+  </div>
 
+  <!-- Museum of Art -->
+  <div class="attraction">
+    <img src="Museum.png" alt="Philadelphia Museum of Art">
+    <h2>Philadelphia Museum of Art</h2>
+    <div class="location">2600 Benjamin Franklin Parkway, Philadelphia, PA</div>
+    <div class="description">
+      One of the largest art museums in the U.S., featuring collections from Renaissance to modern works. Explore world-class galleries and climb the famous “Rocky Steps.”
+    </div>
+    <div class="pricing">Pricing: Adults $25, Students $14, Children under 18 free</div>
+  </div>
 
+  <!-- Blue Cross RiverRink -->
+  <div class="attraction">
+    <img src="RiverRink_1.png" alt="Blue Cross RiverRink">
+    <h2>Blue Cross RiverRink</h2>
+    <div class="location">101 S Christopher Columbus Blvd, Philadelphia, PA</div>
+    <div class="description">
+      A seasonal waterfront rink offering ice skating in winter and roller skating in summer. Enjoy skating, games, and events along the Delaware River.
+    </div>
+    <div class="pricing">Pricing: Admission $5, Skate rental $12</div>
+  </div>
 
-    </body>
+  <!-- Kimmel Center -->
+  <div class="attraction">
+    <img src="Kimmel_Center.png" alt="Kimmel Center for the Performing Arts">
+    <h2>Kimmel Center for the Performing Arts</h2>
+    <div class="location">300 S Broad Street, Philadelphia, PA</div>
+    <div class="description">
+      A stunning glass-domed venue on the Avenue of the Arts. Home to the Philadelphia Orchestra and Broadway tours, with concerts, theater, and dance performances.
+    </div>
+    <div class="pricing">Pricing: Varies by performance (typically $30–$100+)</div>
+  </div>
+
+</div>
+
+</body>
 </html>
